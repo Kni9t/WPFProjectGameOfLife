@@ -1,0 +1,16 @@
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\bin\Debug\WPFProjectGameOfLife.exe.config
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\bin\Debug\WPFProjectGameOfLife.exe
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\bin\Debug\WPFProjectGameOfLife.pdb
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife.csproj.AssemblyReference.cache
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife.csproj.SuggestedBindingRedirects.cache
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\MainWindow.g.cs
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\App.g.cs
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife_MarkupCompile.cache
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife_MarkupCompile.lref
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\MainWindow.baml
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife.g.resources
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife.Properties.Resources.resources
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife.csproj.GenerateResource.cache
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife.csproj.CoreCompileInputs.cache
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife.exe
+E:\3-For programming\GitHub\WPFProjectGameOfLife\WPFProjectGameOfLife\obj\Debug\WPFProjectGameOfLife.pdb
