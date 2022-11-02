@@ -81,29 +81,20 @@ namespace WPFProjectGameOfLife
             for (int i = 0; i < MapHeight; i++)
                 for (int j = 0; j < MapWidth; j++)
                 {
-                    bufPolygon = new Polygon();
-                    bufPointCollection = new PointCollection();
-
                     if (Map[i][j])
                     {
+                        bufPolygon = new Polygon();
+                        bufPointCollection = new PointCollection();
+
                         bufPointCollection.Add(new Point(Edge * j, Edge * i));
                         bufPointCollection.Add(new Point(Edge * j, Edge * i + Edge));
                         bufPointCollection.Add(new Point(Edge * j + Edge, Edge * i + Edge));
                         bufPointCollection.Add(new Point(Edge * j + Edge, Edge * i));
                         bufPolygon.Points = bufPointCollection;
                         bufPolygon.Fill = Brushes.White;
+
+                        MainScreen.Children.Add(bufPolygon);
                     }
-                    else
-                    {
-                        bufPointCollection.Add(new Point(Edge * j, Edge * i));
-                        bufPointCollection.Add(new Point(Edge * j, Edge * i + Edge));
-                        bufPointCollection.Add(new Point(Edge * j + Edge, Edge * i + Edge));
-                        bufPointCollection.Add(new Point(Edge * j + Edge, Edge * i));
-                        bufPolygon.Points = bufPointCollection;
-                        bufPolygon.Fill = Brushes.Black;
-                        bufPolygon.Stroke = Brushes.Black;
-                    }
-                    MainScreen.Children.Add(bufPolygon);
                 }
             GC.Collect();
         }
@@ -113,6 +104,7 @@ namespace WPFProjectGameOfLife
             InitializeComponent();
             MapHeight = (int)(Window.Height / Edge);
             MapWidth = (int)(Window.Width / Edge);
+            MainScreen.Background = Brushes.Black;
 
             Map = new bool[MapHeight][];
 
@@ -127,7 +119,7 @@ namespace WPFProjectGameOfLife
             }
             DispatcherTimer Timer = new DispatcherTimer();
             Timer.Tick += new EventHandler(Timer_Tick);
-            Timer.Interval = new TimeSpan(0, 0, 0, 0, 500);
+            Timer.Interval = new TimeSpan(0, 0, 0, 0, 33);
             Timer.Start();
         }
 
