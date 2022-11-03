@@ -18,7 +18,7 @@ namespace WPFProjectGameOfLife
 {
     public partial class MainWindow : Window
     {
-        public const int Edge = 10; // Длина ребра куба клетки
+        public const int Edge = 5; // Длина ребра куба клетки
         int MapHeight, MapWidth;
         bool[][] Map; // Height на Width
         int StringCheck(int id)
@@ -129,7 +129,7 @@ namespace WPFProjectGameOfLife
             UpdatePrint();
         }
 
-        private void MouseClick(object sender, MouseEventArgs e)
+        private void MouseMove(object sender, MouseEventArgs e)
         {
             Random R = new Random();
 

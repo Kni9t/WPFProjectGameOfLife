@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFProjectGameOfLife"
         mc:Ignorable="d"
-        Name ="Window" Title="Game of Life" Height="300" Width="600">
-    <Grid Margin="0,0,0,0" Name="MainScreen" MouseDown="MouseClick">
+        Name ="Window" Title="Game of Life" Height="600" Width="900">
+    <Grid Margin="0,0,0,0" Name="MainScreen" MouseMove="MouseMove">
     </Grid>
 </Window>
