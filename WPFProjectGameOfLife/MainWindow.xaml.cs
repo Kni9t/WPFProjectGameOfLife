@@ -56,7 +56,7 @@ namespace WPFProjectGameOfLife
                     if (Map[StringCheck(i + 1)][ColumCheck(j)]) bufcount++;
                     if (Map[StringCheck(i + 1)][ColumCheck(j + 1)]) bufcount++;
 
-                    if (Map[i][j] == false) // Стандарт
+                    if (Map[i][j] == false)
                     {
                         if (bufcount == 3) Buf[i][j] = true;
                         else Buf[i][j] = false;
@@ -148,13 +148,6 @@ namespace WPFProjectGameOfLife
                 if (R.Next(0, 2) == 1) Map[StringCheck(PositionY + 1)][ColumCheck(PositionX - 1)] = true;
                 if (R.Next(0, 2) == 1) Map[StringCheck(PositionY + 1)][ColumCheck(PositionX)] = true;
                 if (R.Next(0, 2) == 1) Map[StringCheck(PositionY + 1)][ColumCheck(PositionX + 1)] = true;
-            }
-
-            if (e.RightButton == MouseButtonState.Pressed)
-            {
-                int PositionX = (int)e.GetPosition(this).X / Edge, PositionY = (int)e.GetPosition(this).Y / Edge;
-
-                if (R.Next(0, 2) == 1) Map[StringCheck(PositionY)][ColumCheck(PositionX)] = true;
             }
         }
     }
